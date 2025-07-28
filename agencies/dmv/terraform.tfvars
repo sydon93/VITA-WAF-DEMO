@@ -56,7 +56,8 @@ managed_rules = [
 
 # CUSTOM RULES - IP Blocking
 blocked_ips = [
-  "71.70.238.28/32"
+  "71.70.238.28/32",  # From CLI (curl ifconfig.me)
+  "104.129.206.124/32"  # From browser
 ]
 
 # CUSTOM RULES - Country Blocking
