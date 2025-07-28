@@ -11,5 +11,5 @@ module "dot_waf" {
   blocked_ips         = var.blocked_ips
   geo_match_countries = var.geo_match_countries
 }
-# Test DOT WAF module
+# Test DOT WAF 
 
