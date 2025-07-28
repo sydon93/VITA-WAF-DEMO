@@ -56,8 +56,7 @@ managed_rules = [
 
 # CUSTOM RULES - IP Blocking
 blocked_ips = [
-  "198.51.100.1/32",
-  "203.0.113.45/32"
+  "71.70.238.28/32"
 ]
 
 # CUSTOM RULES - Country Blocking
