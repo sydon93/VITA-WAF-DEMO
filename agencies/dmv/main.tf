@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-# DMV WAF module 
+# DMV WAF module
 module "dmv_waf" {
   source              = "../../modules/waf"
   web_acl_name        = var.web_acl_name
@@ -13,4 +13,4 @@ module "dmv_waf" {
   geo_match_countries = var.geo_match_countries
 }
 
-# test DMV WAF module
+# test DMV WAF 
